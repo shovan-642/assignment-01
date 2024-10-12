@@ -134,7 +134,7 @@ opacity: 0.7;
 }
 
 .btn-learn{
-  color: rgb(13, 19, 33);
+ 
 font-family: Azeret Mono;
 font-size: 20px;
 font-weight: 600;
@@ -149,6 +149,13 @@ background: rgb(255, 255, 255);
 
 }
 
+.btn-learn>a{
+  text-decoration: none;
+  color: rgb(13, 19, 33);
+  cursor: pointer;
+
+}
+
 .youtube-video{
   box-sizing: border-box;
 border: 1px solid rgba(13, 19, 33, 0.2);
@@ -156,4 +163,74 @@ border-radius: 16px;
 padding: 32px;
 margin-top: 48px;
 margin-bottom: 151px;
+}
+
+.card-box{
+  display: flex;
+  margin-top: 48px;
+  margin-bottom: 151px;
+  gap: 24px;
+
+}
+
+.card-bg-01{
+background: rgba(255, 76, 30, 0.05);
+}
+.card-bg-02{
+  background: rgba(0, 76, 232, 0.05);
+  }
+.card-bg-03{
+  background: rgba(255, 223, 0, 0.05);
+  }
+  
+.single-card{
+  width: 364px;
+height: 299px;
+
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.single-card img{
+width: 39.68px;
+height: 45px;
+
+}
+
+.card-h3{
+  color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.card-p{
+  color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+
+}
+
+.card-btn{
+
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+border: none;
+background-color: transparent;
+}
+
+.card-btn>a{
+  text-decoration: none;
+  color: rgb(13, 19, 33);
+  cursor: pointer;
 }
