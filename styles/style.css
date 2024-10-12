@@ -253,12 +253,10 @@ opacity: 0.7;
 
 
 .support-container {
-  height: 313px;
-  background-image: url(../assets/handshake.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/handshake.jpg);
   border-radius: 16px;
-  background-repeat: no-repeat;
+  background-position: center;
   padding: 64px 48px;
-  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
