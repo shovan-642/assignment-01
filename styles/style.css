@@ -52,6 +52,8 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: center;
 opacity: 0.7;
+margin-left: 144px;
+margin-right: 144px;
 
 }
 
@@ -145,4 +147,13 @@ opacity: 0.7;
 padding: 12px 20px 12px 20px;
 background: rgb(255, 255, 255);
 
+}
+
+.youtube-video{
+  box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+padding: 32px;
+margin-top: 48px;
+margin-bottom: 151px;
 }
